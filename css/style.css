@@ -1,0 +1,110 @@
+.glass {
+    text-align: center;
+    }
+    
+    #img3 {
+      height: 13em;
+    }
+    #projectimg {
+      height: 15em;
+    }
+    .nav-item {
+      font-weight: lighter;
+      font-size: 1.1em;
+    }
+    #hi {
+        height: 14em;
+    }
+    #stepsimg {
+      height: 45em;
+    }
+    #rightimg {
+      height: 18em;
+    }
+    .section2 {
+      background-color: rgb(224, 39, 39);
+    }
+    .footer {
+      background-color: rgb(223, 193, 193);
+      height: 23em;
+      background-image: url(../images/wave-1817646_1920.png);
+    }
+    #futureprojectsimg {
+      height: 15em;
+      width: 30em;
+    }
+    .futureprojects {
+      font-size: 3em;
+      background-color: rgb(223, 193, 193);
+    
+    }
+    .section3 {
+      background-color: rgb(27, 23, 23);
+      height: 75vh;
+    }
+    #twitterlogo {
+      height: 2em;
+    }
+    
+    .develop {
+      font-size: 5em;
+     
+    }
+    .design {
+      font-size: 5em;
+    }
+    .plan {
+      image-orientation: flip;
+      font-size: 5em;
+    }
+    
+    #instalogo {
+      height: 2em;
+    }
+    #navbar {
+      background-color: rgb(234, 226, 243);
+    }
+    .btn-danger {
+      text-align: center;
+      color: black;
+      border-color: rgb(95, 91, 91);
+    }
+    .text {
+      text-align: center;
+      text-rendering: geometricPrecision;
+      font-size: 4em;
+    }
+    .main-nav:hover {
+      text-decoration: none;
+    }
+    .main-nav > img {
+      transition: 0.25s all;
+    }
+    .main-nav > img:hover {
+      transform: scale(1.1);
+    }
+    .section1 {
+      background-color: rgb(223, 193, 193);
+    
+      height: 30em;
+    }
+    .banner {
+      background-image: url(../images/avatar-2191918_1920.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 100vh;
+      
+    }
+    .header-background {
+      background-color: rgb(223, 193, 193);
+      height: 90vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url(../images/wave-1817646_1920.png);
+      
+    }
+    .background {
+      background-color: snow;
+    }
+    
