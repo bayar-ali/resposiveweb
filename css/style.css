@@ -1,3 +1,18 @@
+.brewerylocator {
+  height: 12em;
+  width: 20em;
+}
+
+.aboutme {
+  font-family: kalam, cursive;
+  font-size: large;
+}
+.navfonts {
+  font-family: kalam, cursive;
+  font-size: x-large;
+
+}
+
 .glass {
     text-align: center;
     }
@@ -94,7 +109,7 @@
       background-repeat: no-repeat;
       background-position: center;
       min-height: 100vh;
-      
+    
     }
     .header-background {
       background-color: rgb(223, 193, 193);
@@ -102,25 +117,8 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-image: url(../images/wave-1817646_1920.png);
+    }
+
+
+
       
-    }
-    .background {
-      background-color: snow;
-    }
-
-    .brewerylocator {
-      height: 12em;
-      width: 20em;
-    }
-
-    .aboutme {
-      font-family: kalam, cursive;
-      font-size: large;
-    }
-    .navfonts {
-      font-family: kalam, cursive;
-      font-size: x-large;
-    
-  
-    }
-    
