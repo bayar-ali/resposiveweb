@@ -6,7 +6,7 @@
 
 .header-background {
     background-color: rgb(223, 193, 193);
-    height: 180vh;
+    height: 125vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../images/wave-1817646_1920.png);
@@ -15,6 +15,7 @@
   
   .aboutme {
     font-family: kalam, cursive;
+    font-size: larger;
   }
 
   .navfonts {
