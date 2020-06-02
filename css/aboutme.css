@@ -1,6 +1,25 @@
 /* * {
  /*  font-family: kalam, cursive; */
 
+ .contactme {
+  font-family: 'Cinzel', serif;;
+ }
+
+ .main-nav:hover {
+  text-decoration: none;
+}
+.main-nav > img {
+  transition: 0.25s all;
+}
+.main-nav > img:hover {
+  transform: scale(1.1);
+}
+ 
+#twitterlogo {
+  height: 2em;
+}
+
+
  #personalpic {
   height: 22em;
   width: 17em;
