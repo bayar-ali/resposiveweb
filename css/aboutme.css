@@ -1,12 +1,15 @@
 /* * {
  /*  font-family: kalam, cursive; */
 
-
-
+ #personalpic {
+  height: 22em;
+  width: 17em;
+  
+ }
 
 .header-background {
     background-color: rgb(223, 193, 193);
-    height: 125vh;
+    height: 132vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../images/wave-1817646_1920.png);
@@ -23,3 +26,5 @@
     font-size: x-large;
 
   }
+
+  
