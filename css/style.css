@@ -1,7 +1,10 @@
 
 
 
-
+.projectName {
+  
+  size: 12em;
+}
 
 .typing1 {
   text-align: center;
@@ -30,7 +33,7 @@
 
 
 .brewerylocator {
-  height: 12em;
+  height: 16em;
   width: 16em;
 }
 
@@ -88,7 +91,7 @@
     }
     .section3 {
       background-color: rgb(27, 23, 23);
-      height: 100vh;
+      height: 135vh;
     }
     #twitterlogo {
       height: 2em;
