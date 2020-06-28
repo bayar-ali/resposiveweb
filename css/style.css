@@ -87,8 +87,9 @@
     
     }
     .section3 {
-      background-color: rgb(27, 23, 23);
-      height: 135vh;
+      height: 150vh;
+      background-color: rgb(255, 255, 255);
+      
     }
     #twitterlogo {
       height: 2em;
