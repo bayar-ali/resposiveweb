@@ -1,5 +1,9 @@
 
+.projectimg {
 
+height: 10rem;
+
+}
 
 
 
@@ -147,10 +151,10 @@
     }
     .header-background {
       background-color: rgb(223, 193, 193);
-      height: 90vh;
+      height: 120vh;
       background-size: cover;
       background-repeat: no-repeat;
-      background-image: url(../images/wave-1817646_1920.png);
+      background-image: url(../images/wave-1817646_1920.png); 
     }
 
 
