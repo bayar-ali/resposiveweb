@@ -152,8 +152,9 @@ svg circle:nth-child(2) {
 
 
  #personalpic {
-  height: 22em;
-  width: 17em;
+  max-width: 280px;
+  max-height: 365px;
+  border-radius: 60%;
   
  }
 
@@ -177,4 +178,39 @@ svg circle:nth-child(2) {
 
   }
 
+  .btn-two::before, .btn-two::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
   
+  .btn-two:hover::after {
+    animation-name: rotatecw;
+    animation-duration: 2s;
+  }
+  .btn-two:hover::before {
+    animation-name: rotateccw; 
+    animation-duration: 3s;
+  }
+  .btn-two:hover::after, .btn-two:hover::before {
+    left: 96px;
+    width: 64px;
+    
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes rotatecw {
+      from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}
+  }
+  
+  @keyframes rotateccw {
+      from {transform: rotate(0deg);}
+      to {transform: rotate(-360deg);}
+  }
